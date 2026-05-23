@@ -1,0 +1,6 @@
+{system_prompt}
+
+Clinical Note:
+{clinical_text}
+
+Output only the names of the diseases present in the note, separated by commas.

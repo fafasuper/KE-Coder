@@ -1,0 +1,8 @@
+{system_prompt}
+
+Given the clinical note below, classify whether each of the 8 diseases is present or not.
+
+Clinical Note:
+{clinical_text}
+
+Your response must only contain the disease names that are present in the note, separated by commas. If none of the 8 diseases are present, you MUST output exactly "No Finding".

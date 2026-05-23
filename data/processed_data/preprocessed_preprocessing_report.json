@@ -1,0 +1,73 @@
+{
+  "preprocessing_summary": {
+    "original_data_shape": [
+      106261,
+      34
+    ],
+    "complete_data_shape": [
+      105363,
+      29
+    ],
+    "partial_data_shape": [
+      898,
+      29
+    ],
+    "retention_rate_complete": 0.9915491102097665,
+    "diseases_available": 19,
+    "diseases_total": 19
+  },
+  "field_processing": {
+    "original_fields_count": 34,
+    "final_fields_count": 29,
+    "final_fields": [
+      "subject_id",
+      "study_id",
+      "split",
+      "report_text",
+      "discharge_summary_text",
+      "mimic_iv_diagnoses",
+      "mimic_iv_hadm_id",
+      "study_date",
+      "No Finding",
+      "Lung Opacity",
+      "Cardiomegaly",
+      "Atelectasis",
+      "Pleural Effusion",
+      "Support Devices",
+      "Edema",
+      "Pneumonia",
+      "Pneumothorax",
+      "Lung Lesion",
+      "Fracture",
+      "Enlarged Cardiomediastinum",
+      "Consolidation",
+      "Pleural Other",
+      "Calcification of the Aorta",
+      "Tortuous Aorta",
+      "Pneumoperitoneum",
+      "Subcutaneous Emphysema",
+      "Pneumomediastinum",
+      "image_paths",
+      "standardized_diagnoses"
+    ],
+    "removed_fields": [
+      "chest_disease_codes",
+      "chest_disease_count",
+      "chest_disease_categories",
+      "all_diagnosis_codes",
+      "total_diagnosis_count",
+      "icd_versions_used"
+    ],
+    "added_fields": [
+      "standardized_diagnoses"
+    ]
+  },
+  "label_standardization_summary": {
+    "No Finding": {
+      "original_distribution": {
+        "0.0": 97696,
+        "1.0": 7806,
+        "NaN": 759
+      },
+      "standardized_distribution": {
+        

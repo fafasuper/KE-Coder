@@ -1,0 +1,12 @@
+{system_prompt}
+
+Medical Definition Knowledge:
+{knowledge_definitions}
+
+Similar Clinical Cases:
+{retrieved_exemplars}
+
+Clinical Note:
+{clinical_text}
+
+Based on the definitions and similar cases provided above, output only the names of the 8 target diseases present in the note, separated by commas. If none of the diseases are present, you MUST output exactly "No Finding".

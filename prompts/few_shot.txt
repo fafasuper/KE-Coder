@@ -1,0 +1,15 @@
+{system_prompt}
+
+Example 1:
+Clinical Note: "The patient has bilateral pleural effusions and pulmonary edema."
+Diseases: Pleural Effusion, Edema
+
+Example 2:
+Clinical Note: "Chest X-ray shows left pneumothorax and right lower lobe atelectasis."
+Diseases: Pneumothorax, Atelectasis
+
+Now classify the following case:
+Clinical Note:
+{clinical_text}
+
+Diseases:
